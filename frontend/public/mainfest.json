@@ -1,0 +1,8 @@
+{
+  "short_name": "Playlist creator",
+  "name": "Playlisy creator app TS",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#0000ff"
+}

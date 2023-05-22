@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(45deg, #000000, #0e5b29) no-repeat fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  background-color: rgb(18, 18, 18); /* Black background with some transparency */
+  padding: 20px 20px 40px;
+  border-radius: 6px;
+  text-align: center;
+  width: 40vh; /* You can adjust this value as needed */
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Styling all text to be white for better readability against the dark background */
+body, h1, h2, h3, h4, h5, h6, p, a {
+  color: #FFFFFF;
+}
+
+/* Styling links for a more attractive, modern appearance */
+a {
+  display: inline-block;
+  background-color: #1DB954; /* Spotify green color */
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+a:hover {
+  background-color: #1ed760; /* Lighter green for hover state */
+}
+
+/* If you're using any buttons, this will give them a modern, sleek look */
+button {
+  background-color: #1DB954;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1ed760;
+}

@@ -1,0 +1,8 @@
+version: '3'
+services:
+  list-creator:
+    image: spotygen
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app

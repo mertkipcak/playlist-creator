@@ -1,0 +1,26 @@
+/*!* The outermost container *!*/
+
+/*!* The div *!*/
+/*.authorize-container {*/
+/*    background-color: rgba(0, 0, 0, 0.9); !* Black background with some transparency *!*/
+/*    padding: 20px 20px 40px;*/
+/*    border-radius: 0px;*/
+/*    text-align: center;*/
+/*    width: 100%; !* You can adjust this value as needed *!*/
+/*    color: #fff;*/
+/*}*/
+
+/*!* The link *!*/
+/*.authorize-container a {*/
+/*    display: inline-block;*/
+/*    background-color: #1DB954; !* Spotify green color *!*/
+/*    color: #fff;*/
+/*    text-decoration: none;*/
+/*    padding: 10px 20px;*/
+/*    border-radius: 0px;*/
+/*    transition: background-color 0.3s ease;*/
+/*}*/
+
+/*.authorize-container a:hover {*/
+/*    background-color: #15742b; !* Lighter green for hover state *!*/
+/*}*/

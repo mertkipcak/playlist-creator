@@ -1,0 +1,138 @@
+/* Form.css */
+
+/* This will style the form container */
+.form-container {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with some transparency */
+    border-radius: 12px;
+}
+
+/* This will style the form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Creates space between form elements */
+}
+
+/* This will style the form labels */
+form label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* This will style the form inputs */
+form input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none; /* Removes the default browser outline */
+    background-color: #282828;
+    color: #FFFFFF; /* White text c*/
+    margin-top: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* This will style the form inputs on focus */
+form input:focus {
+    box-shadow: 0 0 10px #1DB954; /* Creates a glowing effect around the input */
+}
+
+/* This will style the form button */
+form button {
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1DB954; /* Spotify green color */
+    color: #FFFFFF; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 10vh;
+}
+
+/* This will style the form button on hover */
+form button:hover {
+    background-color: #1ed760; /* Lighter green for hover state */
+}
+
+/* This will style the form heading */
+form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px; /* Creates some space below the heading */
+}
+
+div {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.description {
+    height: 5vh;
+    width: 30vh;
+}
+
+form input[type="range"] {
+    -webkit-appearance: none; /* Hides the default HTML5 slider appearance */
+    width: 100%;
+    background: #282828;
+    outline: none; /* Removes the default browser outline */
+    opacity: 0.7; /* Makes the slider slightly transparent */
+    transition: opacity .2s ease;
+    border-radius: 12px;
+    height: 6px;
+}
+
+form input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Hides the default HTML5 slider thumb */
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #1DB954; /* Spotify green color */
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background .2s ease;
+}
+
+form input[type="range"]::-webkit-slider-thumb:hover {
+    background: #1ed760; /* Lighter green for hover state */
+}
+
+form input[type="range"]:hover {
+    opacity: 1; /* Makes the slider fully visible when hovered */
+}
+
+.number-div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+}
+
+.number-box {
+    width: 2vh;
+    margin-right: 5px;
+}
+
+/* This will style the form inputs */
+form textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none; /* Removes the default browser outline */
+    background-color: #282828;
+    color: #FFFFFF; /* White text c*/
+    margin-top: 10px;
+    text-align: left;
+    vertical-align: top;
+    resize: none;
+}
+
+/* This will style the form inputs on focus */
+form textarea:focus {
+    box-shadow: 0 0 10px #1DB954; /* Creates a glowing effect around the input */
+}
